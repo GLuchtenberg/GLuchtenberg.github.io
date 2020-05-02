@@ -25,16 +25,19 @@ const IndexPage = () => {
       </div>
       <div className="contact">
         <div className="link-container">
-          <a className="social-media">
-            <Github />
+          <a href="https://github.com/GLuchtenberg" className="social-media">
+            <Github height="40" />
             <p>GLuchtenberg</p>
           </a>
-          <a href="http://twitter.com/GLuchtenberg" className="social-media">
-            <Twitter />
+          <a href="https://twitter.com/GabrLucht" className="social-media">
+            <Twitter height="40" />
             <p>GabrLuchtenberg</p>
           </a>
-          <a className="social-media">
-            <Linkedin />
+          <a
+            href="https://www.linkedin.com/in/gabriel-lucht/"
+            className="social-media"
+          >
+            <Linkedin height="40" />
             <p>gabriel-lucht</p>
           </a>
         </div>
